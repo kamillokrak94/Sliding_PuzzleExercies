@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #1b1b1b;
+  /* //Viewport height 100 oznacza 100% wysokoćsci obszaru roboczego ekranu*/
+  height: 100vh;
+  /* //Viewport width */
+  width: 100vw;
+}
+
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+}
+
+.tile {
+  border: 1px solid;
+}
+
+.tile {
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 30px;
+}
